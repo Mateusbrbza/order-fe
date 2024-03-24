@@ -7,18 +7,18 @@ export default function Orders() {
   return (
     <Container>
       <OrdersBoard
-        icon="🤫"
-        title="Fila de epsera"
+        icon="🕒"
+        title="Fila de espera"
         orders={orders}
       />
       <OrdersBoard
-        icon="🦕"
-        title="Fila de espera!"
+        icon="👨‍🍳"
+        title="Em preparo"
         orders={[]}
       />
       <OrdersBoard
-        icon="🐜"
-        title="Entregue"
+        icon="✅"
+        title="Pronto"
         orders={[]}
       />
     </Container>
